@@ -50,14 +50,14 @@ const plugins = [
                         withWebp: true,
                     },
                 },
-                // {
-                //     resolve: `gatsby-remark-snippets`,
-                //     options: {
-                //         // Example code links are relative to this dir.
-                //         // eg examples/path/to/file.js
-                //         directory: `${__dirname}/snippets/`,
-                //     },
-                // },
+                {
+                    resolve: `gatsby-remark-snippets`,
+                    options: {
+                        // Example code links are relative to this dir.
+                        // eg examples/path/to/file.js
+                        directory: `${__dirname}/snippets/`,
+                    },
+                },
                 {
                     resolve: `gatsby-remark-embed-snippet`,
                     options: {
@@ -187,6 +187,7 @@ module.exports = {
         siteUrl: process.env.SITE_URL || 'https://paalamugan.tk',
         description: 'Paalamugan Portfolio'
     },
+    // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
     plugins: plugins,
     mapping: {
         'MarkdownRemark.frontmatter.common': `MarkdownRemark.frontmatter.layout`

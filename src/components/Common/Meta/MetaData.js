@@ -11,8 +11,6 @@ const MetaData = ({
     title,
     description,
     image,
-    fetchAuthorData,
-    overwriteDefaultImage,
     location,
 }) => {
     const { markdownRemark } = data || {}
@@ -64,8 +62,6 @@ MetaData.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     image: PropTypes.string,
-    fetchAuthorData: PropTypes.bool,
-    overwriteDefaultImage: PropTypes.bool,
 }
 
 export default MetaData

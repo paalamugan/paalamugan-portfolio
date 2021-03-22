@@ -77,9 +77,8 @@ yarn-error.log
 # config files
 .env.*
 !.env.example
+!.env.production
 
 # Cypress
 test/cypress/screenshots
 test/cypress/videos
-
-snippets

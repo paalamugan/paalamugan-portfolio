@@ -33,7 +33,7 @@ const Home = ({ data, location, children }) => {
 
 Home.propTypes = {
   data: PropTypes.any,
-  location: PropTypes.string,
+  location: PropTypes.any,
   children: PropTypes.node.isRequired,
 }
 
