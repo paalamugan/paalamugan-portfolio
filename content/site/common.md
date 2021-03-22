@@ -10,18 +10,15 @@ header:
 
 footer:
   contacts:
-    - type: facebook
-      url: https://www.facebook.com/comradpaalan
-      icon: facebook-square
-    - type: email
-      url: mailto:paalamugan44@gmail.com
-      icon: envelope-o
     - type: github
       url: https://github.com/paalamugan
       icon: github
     - type: linkedin
       url: https://www.linkedin.com/in/paala-mugan-a6baa315b
       icon: linkedin
+    - type: email
+      url: mailto:paalamugan44@gmail.com
+      icon: envelope-o
   reserved: © 2020 paalamugan. All rights reserved.
 
 ---
