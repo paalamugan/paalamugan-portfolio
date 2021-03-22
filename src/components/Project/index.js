@@ -4,7 +4,7 @@ import { ProjectList } from './components';
 
 const Project = ({ projects = [], button }) => {
 
-  const limit = 5;
+  const limit = 6;
   const [tempProjects, setTempProjects] = useState(projects.slice(0, limit));
 
   const onClickSeeMore = (e) => {
