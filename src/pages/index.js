@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import { mandatoryProps } from '../utils/propTypes';
 
 import { Home } from '../components/Layout';
-import { Header } from '../components/Common';
 import Project from '../components/Project';
 import Contact from '../components/Contact';
 
@@ -28,7 +27,7 @@ const HomeIndex = ({ data, location }) => {
           </header>
           <p>{section_one.description}</p>
           <strong className="text-bold">Key Skills</strong>
-          <p>
+          <p className="mt-5">
             {section_one.skills && section_one.skills.map((skill, index) => (
               <span className="badge" key={index}>{skill}</span>
             ))}

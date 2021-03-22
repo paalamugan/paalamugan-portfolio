@@ -24,21 +24,22 @@ body:
       - Svelte
       - Gatsby
       - Graphql
+      - Rest API
       - MongoDB
       - Mysql
       - Redis
       - Clickhouse
       - MeiliSearch
       - NSQD
-      - Stripe
+      - Stripe Integration
       - Docker
       - Heroku
       - Netlify
       - Git
-      - Rest API
+      - HTML
       - CSS
+      - Javascript
       - Sass
-      - Scss
       - Java
       - C
       - C++
