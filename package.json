@@ -63,7 +63,8 @@
     "tocbot": "^4.12.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio"
   ],
   "license": "MIT",
   "devDependencies": {

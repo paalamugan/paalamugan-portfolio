@@ -12,7 +12,7 @@ common: common
 body:
   section_one:
     title: About me
-    description: Having 3.5 year of experience in Full Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things.
+    description: "Having 3.6 plus year of experience in MEAN &MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
     skills:
       - Node.js
       - Express
@@ -46,6 +46,12 @@ body:
   section_two:
     title: Latest Projects
     projects:
+      - url: https://optic-visions.herokuapp.com
+        gitUrl: https://github.com/paalamugan/optic-visions
+        image: screenshots/optic-visions.png
+        caption: Optic Visions
+        description: This product useful for customer who wishes to have all the details for the optical related business.
+
       - url: https://employee-payslip-generator.herokuapp.com
         gitUrl: https://github.com/paalamugan/payslip-generator-api
         image: screenshots/employee-payslip-generator.png
@@ -58,17 +64,17 @@ body:
         caption: Simple Jewellery App
         description: Angular Simple Jewellery Application made with angular6 framework.
 
-      - url: https://excel-sheet-data.netlify.app
-        gitUrl: https://github.com/paalamugan/ExcelReadWrite-Angular
-        image: screenshots/excel-sheet-data.png
-        caption: Excel Sheet Data
-        description: Excel Sheet Read and write Angular Sample Project
-
       - url: https://svelte-components-inside-angularjs.netlify.app
         gitUrl: https://github.com/paalamugan/svelte-components-inside-angularjs
         image: screenshots/svelte-components-inside-angularjs.png
         caption: Svelte Components Inside Angularjs
         description: Svelte components inside angularjs
+        
+      - url: https://excel-sheet-data.netlify.app
+        gitUrl: https://github.com/paalamugan/ExcelReadWrite-Angular
+        image: screenshots/excel-sheet-data.png
+        caption: Excel Sheet Data
+        description: Excel Sheet Read and write Angular Sample Project
 
       - url: https://svelte-table-component.netlify.app
         gitUrl: https://github.com/paalamugan/svelte-table-component
