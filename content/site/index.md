@@ -12,7 +12,7 @@ common: common
 body:
   section_one:
     title: About me
-    description: "Having 3.6 plus year of experience in MEAN &MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
+    description: "Having 3.8 year of experience in MEAN & MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
     skills:
       - Node.js
       - Express
@@ -40,12 +40,19 @@ body:
       - CSS
       - Javascript
       - Sass
+      - Scss
       - Java
       - C
       - C++
   section_two:
     title: Latest Projects
     projects:
+      - url: https://cms-blog-post.herokuapp.com
+        gitUrl: https://github.com/paalamugan/cms-blog
+        image: screenshots/cms-blog.png
+        caption: CMS Blog
+        description: It helps to create authenticate blog posts, and users can also comments the specific posts.
+
       - url: https://optic-visions.herokuapp.com
         gitUrl: https://github.com/paalamugan/optic-visions
         image: screenshots/optic-visions.png
@@ -53,10 +60,10 @@ body:
         description: This product useful for customer who wishes to have all the details for the optical related business.
 
       - url: https://employee-payslip-generator.herokuapp.com
-        gitUrl: https://github.com/paalamugan/payslip-generator-api
+        gitUrl: https://github.com/paalamugan/employee-payslip-generator
         image: screenshots/employee-payslip-generator.png
         caption: Employee Payslip Generator
-        description: Generate a Employee monthly payslip and send to mail.
+        description: Generate a Employee monthly payslip download as pdf and send to their mail.
 
       - url: https://jewellery-app.netlify.app
         gitUrl: https://github.com/paalamugan/JewelleryMiniApp-Angular
