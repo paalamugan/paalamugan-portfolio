@@ -70,12 +70,6 @@ body:
         image: screenshots/jewellery-app.png
         caption: Simple Jewellery App
         description: Angular Simple Jewellery Application made with angular6 framework.
-
-      - url: https://svelte-components-inside-angularjs.netlify.app
-        gitUrl: https://github.com/paalamugan/svelte-components-inside-angularjs
-        image: screenshots/svelte-components-inside-angularjs.png
-        caption: Svelte Components Inside Angularjs
-        description: Svelte components inside angularjs
         
       - url: https://excel-sheet-data.netlify.app
         gitUrl: https://github.com/paalamugan/ExcelReadWrite-Angular
