@@ -77,12 +77,6 @@ body:
         caption: Excel Sheet Data
         description: Excel Sheet Read and write Angular Sample Project
 
-      - url: https://svelte-table-component.netlify.app
-        gitUrl: https://github.com/paalamugan/svelte-table-component
-        image: screenshots/svelte-table-component.png
-        caption: Svelte Table Component
-        description: Svelte table component with a sortable and infinity scroll table.
-
       - url: https://selectize-click-editable.netlify.app
         gitUrl: https://github.com/paalamugan/selectize_restore_on_click_plugin
         image: screenshots/selectize-click-editable.png
