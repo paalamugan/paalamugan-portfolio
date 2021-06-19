@@ -12,7 +12,7 @@ common: common
 body:
   section_one:
     title: About me
-    description: "Having 3.8 year of experience in MEAN & MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
+    description: "Having {{ experience }} year of experience in MEAN & MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
     skills:
       - Node.js
       - Express

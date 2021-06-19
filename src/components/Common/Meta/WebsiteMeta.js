@@ -10,6 +10,7 @@ const WebsiteMeta = ({ data, canonical, title, description, image, type }) => (
                 <title>{title}</title>
                 <meta name="description" content={description} />
                 <link rel="canonical" href={canonical} />
+                <link rel="preload" type="image/jpg" href={canonical + 'static/bg-icon-0cbb7933901a40c79c2c03381b14aca5.jpg'} as="image" />
                 <meta property="og:site_name" content={data.site.siteMetadata.title} />
                 <meta property="og:site_description" content={data.site.siteMetadata.description} />
                 <meta property="og:type" content="website" />

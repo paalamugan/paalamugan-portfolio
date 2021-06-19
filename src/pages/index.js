@@ -7,13 +7,28 @@ import { Home } from '../components/Layout';
 import Project from '../components/Project';
 import Contact from '../components/Contact';
 
-import { modifiedGraphqlData } from '../utils/constant';
+import { modifiedGraphqlData, setDynamicValueInText } from '../utils/constant';
 
 const HomeIndex = ({ data, location }) => {
 
   data = modifiedGraphqlData(data);
 
   const { section_one, section_two, section_three } = data.body;
+
+  const experienceCalc = () => {
+
+    var startDate = new Date(2017, 7, 15);
+    var currentDate = new Date();
+
+    var startMonth = startDate.getFullYear() * 12 + startDate.getMonth();
+    var endMonth = currentDate.getFullYear() * 12 + currentDate.getMonth();
+    var monthInterval = (endMonth - startMonth);
+
+    var years = Math.floor(monthInterval / 12);
+    var months = monthInterval % 12;
+
+    return `${years}${months ? '.' + months : ''}`;
+  }
 
   return (
     <Home data={data} location={location}>
@@ -25,7 +40,7 @@ const HomeIndex = ({ data, location }) => {
               {section_one.title}
             </h2>
           </header>
-          <p>{section_one.description}</p>
+          <p>{setDynamicValueInText(section_one.description, { experience: experienceCalc() })}</p>
           <strong className="text-bold">Key Skills</strong>
           <p className="mt-5">
             {section_one.skills && section_one.skills.map((skill, index) => (

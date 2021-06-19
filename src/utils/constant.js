@@ -41,3 +41,23 @@ export const splitMarkDownText = function splitMarkDownText(value) {
     return arr.map((text) => text && text.trim());
 }
 
+export const setDynamicValueInText = function setDynamicValueInText(value, data) {
+
+    if (!value) {
+        return value
+    }
+
+    data = data || {};
+    let result = '';
+
+    function replacer(match, p1, offset, string) {
+        p1 = p1.trim();
+      return data[p1];
+    }
+
+    result = value.replace(/{{([\s\S]+?)}}/g, replacer);
+
+    return result;
+
+}
+

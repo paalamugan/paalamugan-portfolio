@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Icon from '../Icon';
 import Link from '../Link';
+import { setDynamicValueInText } from '../../../utils/constant';
 
 const Footer = ({ contacts, reserved }) => (
   <div id="footer">
@@ -17,7 +18,7 @@ const Footer = ({ contacts, reserved }) => (
         )): null}
       </ul>
       <ul className="copyright">
-        <li>{reserved}</li>
+        <li>{setDynamicValueInText(reserved, { copyrightYear: new Date().getFullYear()} )}</li>
       </ul>
     </div>
   </div>
