@@ -12,7 +12,7 @@ common: common
 body:
   section_one:
     title: About me
-    description: "Having 3.8 year of experience in MEAN & MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
+    description: "Having {{ experience }} year of experience in MEAN & MERN Stack development and more enthusiasm for my work. Able to work independently, as a part of team and able to vaporize and grasp the new things. Extensive experience in working with product development and startup Product Company."
     skills:
       - Node.js
       - Express
@@ -76,24 +76,12 @@ body:
         image: screenshots/jewellery-app.png
         caption: Simple Jewellery App
         description: Angular Simple Jewellery Application made with angular6 framework.
-
-      - url: https://svelte-components-inside-angularjs.netlify.app
-        gitUrl: https://github.com/paalamugan/svelte-components-inside-angularjs
-        image: screenshots/svelte-components-inside-angularjs.png
-        caption: Svelte Components Inside Angularjs
-        description: Svelte components inside angularjs
         
       - url: https://excel-sheet-data.netlify.app
         gitUrl: https://github.com/paalamugan/ExcelReadWrite-Angular
         image: screenshots/excel-sheet-data.png
         caption: Excel Sheet Data
         description: Excel Sheet Read and write Angular Sample Project
-
-      - url: https://svelte-table-component.netlify.app
-        gitUrl: https://github.com/paalamugan/svelte-table-component
-        image: screenshots/svelte-table-component.png
-        caption: Svelte Table Component
-        description: Svelte table component with a sortable and infinity scroll table.
 
       - url: https://selectize-click-editable.netlify.app
         gitUrl: https://github.com/paalamugan/selectize_restore_on_click_plugin

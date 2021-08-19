@@ -19,6 +19,6 @@ footer:
     - type: email
       url: mailto:paalamugan44@gmail.com
       icon: envelope-o
-  reserved: © 2020 paalamugan. All rights reserved.
+  reserved: © {{ copyrightYear }} paalamugan. All rights reserved.
 
 ---
