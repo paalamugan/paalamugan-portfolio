@@ -47,6 +47,12 @@ body:
   section_two:
     title: Latest Projects
     projects:
+      - url: https://angular12-boilerplate-template.netlify.app/login
+        gitUrl: https://github.com/paalamugan/oauth-angular-12-boilerplate-template
+        image: screenshots/angular12-boilerplate-template.png
+        caption: Angular12 Boilerplate Template
+        description: Angular12 Boilerplate Template using with angular material, flexlayout, tailwind.
+
       - url: https://cms-blog-post.herokuapp.com
         gitUrl: https://github.com/paalamugan/cms-blog
         image: screenshots/cms-blog.png
