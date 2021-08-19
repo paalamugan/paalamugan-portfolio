@@ -47,7 +47,7 @@ body:
   section_two:
     title: Latest Projects
     projects:
-      - url: https://angular12-boilerplate-template.netlify.app/login
+      - url: https://angular12-boilerplate-template.netlify.app
         gitUrl: https://github.com/paalamugan/oauth-angular-12-boilerplate-template
         image: screenshots/angular12-boilerplate-template.png
         caption: Angular12 Boilerplate Template
