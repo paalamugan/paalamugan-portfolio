@@ -6,7 +6,7 @@ ignoreMarkdown: true
 header:
   icon: "avatar.jpg"
   title: I am paalamugan
-  description: a full stack developer and very much passionate and interesting about any coding language.
+  description: a senior full stack developer and very much passionate and interesting about any coding language.
 
 footer:
   contacts:

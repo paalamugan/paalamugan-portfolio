@@ -5,7 +5,7 @@ ignoreMarkdown: true
 
 meta:
     title: Paalamugan Portfolio
-    description: A full stack developer and very much passionate and interesting about any coding language.
+    description: Senior full stack developer and very much passionate and interesting about any coding language.
 
 common: common
 
