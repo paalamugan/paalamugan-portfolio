@@ -9,7 +9,7 @@ const algoliaQueries = require(`./utils/algolia-queries`)
 const path = require(`path`)
 
 const NODE_ENV = process.env.NODE_ENV || `development`;
-console.log(`NODE_ENV`, NODE_ENV)
+
 require(`dotenv`).config({
     path: `.env.${NODE_ENV}`,
 })
@@ -20,8 +20,9 @@ if (!process.env.SITE_URL) {
     )
 }
 
-const SERVICE_WORKER_KILL_SWITCH = process.env.SERVICE_WORKER_KILL_SWITCH === `true`;
-
+const SERVICE_WORKER_KILL_SWITCH = process.env.SERVICE_WORKER_KILL_SWITCH == `true`;
+console.log(`SERVICE_WORKER_KILL_SWITCH`, SERVICE_WORKER_KILL_SWITCH);
+console.log(`process.env.SERVICE_WORKER_KILL_SWITCH`, process.env.SERVICE_WORKER_KILL_SWITCH);
 const plugins = [
     /**
      *  Content Plugins
