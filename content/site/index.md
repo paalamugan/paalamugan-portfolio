@@ -114,7 +114,7 @@ body:
     title: Contact me
     description: ''
     address: '120 N-BLock, 25th street, Bharathiyar Nagar, Adayar, Chennai: 600005'
-    phone: '+91 8754578990'
+    phone: '+91 XXXXXXXXXX'
     email: paalamugan44@gmail.com
     button:
       name: Send Message
