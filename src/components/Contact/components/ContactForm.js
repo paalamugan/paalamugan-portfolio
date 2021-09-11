@@ -32,7 +32,7 @@ const ContactForm = ({ button }) => {
       setIsEmailSend(true);
       setTimeout(() => {
         setIsEmailSend(false);
-      }, 8000);
+      }, 15000);
     });
 
   }
