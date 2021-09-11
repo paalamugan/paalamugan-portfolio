@@ -45,7 +45,7 @@ const ContactForm = ({ button }) => {
             type="text"
             name="name"
             id="name"
-            placeholder="Name"
+            placeholder="Your Name"
             required
             autoComplete="off"
           />
@@ -55,7 +55,7 @@ const ContactForm = ({ button }) => {
             type="email"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="Your Email"
             required
             autoComplete="off"
           />
@@ -76,7 +76,7 @@ const ContactForm = ({ button }) => {
         </li>
         {isEmailSend && (<li className={`text-${isEmailReceived ? `green` : `red`} ${isEmailSend ? `fade-in` : `fade-out`}`}>
             <i className={`icon mr-5 fa-${isEmailReceived ? `check-circle` : `times-circle`}`}></i>
-            Email {isEmailReceived ? `was successfully sent` : `Not Received`}.
+            Email {isEmailReceived ? `was successfully received, I will reach out to you soon.` : `was not received.`}.
           </li>)
         }
       </ul>
