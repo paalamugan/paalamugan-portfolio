@@ -19,7 +19,7 @@ if (!process.env.SITE_URL) {
         `SITE_URL are required to build.`
     )
 }
-
+console.log(`NODE_ENV`, NODE_ENV, `.env.${NODE_ENV}`)
 const SERVICE_WORKER_KILL_SWITCH = process.env.SERVICE_WORKER_KILL_SWITCH == `true`;
 console.log(`SERVICE_WORKER_KILL_SWITCH`, SERVICE_WORKER_KILL_SWITCH);
 console.log(`process.env.SERVICE_WORKER_KILL_SWITCH`, process.env.SERVICE_WORKER_KILL_SWITCH);
