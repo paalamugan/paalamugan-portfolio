@@ -75,9 +75,9 @@ public
 yarn-error.log
 
 # config files
-.env.*
+<!-- .env.*
 !.env.example
-!.env.production
+!.env.production -->
 
 # Cypress
 test/cypress/screenshots
