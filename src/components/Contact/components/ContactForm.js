@@ -76,7 +76,7 @@ const ContactForm = ({ button }) => {
         </li>
         {isEmailSend && (<li className={`text-${isEmailReceived ? `green` : `red`} ${isEmailSend ? `fade-in` : `fade-out`}`}>
             <i className={`icon mr-5 fa-${isEmailReceived ? `check-circle` : `times-circle`}`}></i>
-            Email {isEmailReceived ? `was successfully received, I will reach out to you soon.` : `was not received.`}.
+            Email {isEmailReceived ? `was successfully received, I will reach out to you soon.` : `was not received. please try again!`}.
           </li>)
         }
       </ul>
