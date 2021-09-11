@@ -19,6 +19,7 @@ body:
       - Python
       - Angularjs
       - Angular 6
+      - Angular 12
       - Vue
       - React
       - Svelte
