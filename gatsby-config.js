@@ -8,8 +8,10 @@ const easyImport = require(`postcss-easy-import`)
 const algoliaQueries = require(`./utils/algolia-queries`)
 const path = require(`path`)
 
+const NODE_ENV = process.env.NODE_ENV || `development`;
+
 require(`dotenv`).config({
-    path: `.env.${process.env.NODE_ENV}`,
+    path: `.env.${NODE_ENV}`,
 })
 
 if (!process.env.SITE_URL) {
@@ -18,7 +20,7 @@ if (!process.env.SITE_URL) {
     )
 }
 
-const SERVICE_WORKER_KILL_SWITCH = (process.env.SERVICE_WORKER_KILL_SWITCH === `true`) || false
+const SERVICE_WORKER_KILL_SWITCH = process.env.SERVICE_WORKER_KILL_SWITCH == `true`;
 
 const plugins = [
     /**
@@ -83,11 +85,11 @@ const plugins = [
         options: {
             name: `PaalaMugan Site`,
             short_name: `PaalaMugan`,
-            start_url: '/',
-            background_color: '#663399',
-            theme_color: '#663399',
-            display: 'minimal-ui',
-            icon: 'static/images/logo.png', // This path is relative to the root of the site.
+            start_url: `/`,
+            background_color: `#663399`,
+            theme_color: `#663399`,
+            display: `minimal-ui`,
+            icon: `static/images/logo.png`, // This path is relative to the root of the site.
         },
     },
     `gatsby-plugin-react-helmet`,
@@ -123,7 +125,7 @@ const plugins = [
                 `/data-schema`,
                 `/README`,
                 `/common`,
-                '/(\/)?hash-\S*/', // exclude internal tags
+                `/(\/)?hash-\S*/`, // exclude internal tags
             ],
         },
     },
@@ -182,14 +184,14 @@ if (SERVICE_WORKER_KILL_SWITCH) {
 
 module.exports = {
     siteMetadata: {
-        title: 'Paalamugan Portfolio',
-        author: 'Paalamugan',
-        siteUrl: process.env.SITE_URL || 'https://paalamugan.tk',
-        description: 'Paalamugan Portfolio'
+        title: `Paalamugan Portfolio`,
+        author: `Paalamugan`,
+        siteUrl: process.env.SITE_URL || `https://paalamugan.tk`,
+        description: `Paalamugan Portfolio`,
     },
     // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
     plugins: plugins,
     mapping: {
-        'MarkdownRemark.frontmatter.common': `MarkdownRemark.frontmatter.layout`
+        'MarkdownRemark.frontmatter.common': `MarkdownRemark.frontmatter.layout`,
     },
 }
