@@ -27,7 +27,7 @@ const HomeIndex = ({ data, location }) => {
     var years = Math.floor(monthInterval / 12);
     var months = monthInterval % 12;
 
-    return `${years}${months ? '.' + months : ''}`;
+    return `${years}${months ? `.` + months : ``}`;
   }
 
   return (
