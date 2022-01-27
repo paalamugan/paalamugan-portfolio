@@ -5,8 +5,6 @@ import Footer from '../Footer';
 import Icon from '../Icon';
 import Link from '../Link';
 
-import avatar from '../../../assets/images/avatar.jpg'
-
 const Header = ({ icon, title, description, footer }) => (
   <header id="header">
     <div className="inner">
