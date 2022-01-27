@@ -4,7 +4,7 @@ layout: common
 ignoreMarkdown: true
 
 header:
-  icon: "avatar.jpg"
+  icon: "avatar.jpeg"
   title: I am paalamugan
   description: a senior full stack developer and very much passionate and interesting about any coding language.
 

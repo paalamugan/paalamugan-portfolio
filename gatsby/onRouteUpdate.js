@@ -17,7 +17,7 @@ module.exports.trustAllScripts = function () {
             var scriptNodes = document.querySelectorAll('.external-scripts script');
             for (var i = 0; i < scriptNodes.length; i += 1) {
                 var node = scriptNodes[i];
-                // @TODO do the same for inline scripts?
+                // @TODO: do the same for inline scripts?
                 if (node.attributes.src) {
                     var s = document.createElement('script');
                     s.type = 'text/javascript';

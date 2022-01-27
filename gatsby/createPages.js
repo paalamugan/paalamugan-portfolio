@@ -1,5 +1,5 @@
 const path = require(`path`)
-const fs   = require('fs')
+const fs   = require(`fs`)
 const { allMarkdownPosts } = require(`../utils/node-queries`)
 
 module.exports.createRedirects = ({ actions }) => {
@@ -47,7 +47,7 @@ module.exports.createMarkdownPages = async ({ graphql, actions }) => {
                             // Data passed to context is available
                             // in page queries as GraphQL variables.
                             slug: node.fields.slug,
-                            section: node.fields.section
+                            section: node.fields.section,
                         },
                     })
                     return resolve()

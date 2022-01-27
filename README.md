@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------
 
-Node Version: 12.16.1
+Node Version: 14.15.3
 
 ```
 nvm install v14.15.3
@@ -30,8 +30,7 @@ For production,
 cp .env.example .env.production
 ```
 
-
-Start the server and watch for changes:
+- Start the server and watch for changes:
 
 ```
 npm run dev
@@ -64,13 +63,13 @@ npm run serve
 
 ## Testing
 
-Before submitting changes, run
+- Before submitting changes to repo, run
 
 ```
 npm run test
 ```
 
-This will run some tests to verify that
+- This will run some tests to verify that
  - Frontend works as expected
  - No linting issues are present
 
