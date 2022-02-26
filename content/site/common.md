@@ -17,7 +17,7 @@ footer:
       url: https://www.linkedin.com/in/paala-mugan-a6baa315b
       icon: linkedin
     - type: email
-      url: mailto:paalamugan44@gmail.com
+      url: mailto:paalamugan26@gmail.com
       icon: envelope-o
   reserved: © {{ copyrightYear }} paalamugan. All rights reserved.
 
