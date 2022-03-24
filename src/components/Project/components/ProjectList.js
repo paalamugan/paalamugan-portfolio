@@ -4,13 +4,13 @@ import { Link, Icon } from '../../Common';
 
 const Project = ({ url, gitUrl, image, caption, description }) => (
   <article className="6u 12u$(xsmall) work-item">
-    <Link href={url} className="image fit thumb" target="_blank">
+    <Link href={url} target="_blank" className="image fit thumb" >
       <Icon name={image} alt={caption} className="h-300" />
     </Link>
 
     <h3>
       {caption}
-      <Link href={gitUrl} className="icon fa-github valign-middle float-right">
+      <Link href={gitUrl} target="_blank" className="icon fa-github valign-middle float-right">
         <span className="label">Github</span>
       </Link>
     </h3>
