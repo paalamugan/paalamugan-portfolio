@@ -22,13 +22,13 @@ const Project = ({ projects = [], button }) => {
         }
         </div>
       )}
-    <ul className="actions">
-      <li>
-        <a className="button" onClick={onClickSeeMore}>
-          {button.name}
-        </a>
-      </li>
-    </ul>
+      <ul className="actions">
+        <li>
+          <a className="button" onClick={onClickSeeMore}>
+            {button.name}
+          </a>
+        </li>
+      </ul>
     </div>
   )
 }

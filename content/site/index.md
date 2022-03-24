@@ -48,6 +48,11 @@ body:
   section_two:
     title: Latest Projects
     projects:
+      - url: https://translator-application.vercel.app
+        gitUrl: https://github.com/paalamugan/translator-mono-repo
+        image: screenshots/translator-application.png
+        caption: Translator Application
+        description: It helps to translate from one language to multiple languages using svelte.
       - url: https://angular12-boilerplate-template.netlify.app
         gitUrl: https://github.com/paalamugan/oauth-angular-12-boilerplate-template
         image: screenshots/angular12-boilerplate-template.png
