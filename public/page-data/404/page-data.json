@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/404/",
+    "result": {"data":{"site":{"siteMetadata":{"siteUrl":"https://paalamugan.tk","title":"Paalamugan Portfolio","description":"Paalamugan Portfolio"}},"markdownRemark":{"frontmatter":{"body":{"title":"PAGE NOT FOUND","description":"The page you're looking for isn't available. ","button":{"name":"GO HOME","url":"/"},"icon":"page-not-found.png"},"layout":"404","meta":{"title":"Page Not Found","description":"page not found."},"common":{"frontmatter":{"header":{"icon":"avatar.jpg","title":"I am paalamugan","description":"a senior full stack developer and very much passionate and interesting about any coding language."},"footer":{"contacts":[{"type":"github","url":"https://github.com/paalamugan","icon":"github"},{"type":"linkedin","url":"https://www.linkedin.com/in/paala-mugan-a6baa315b","icon":"linkedin"},{"type":"email","url":"mailto:paalamugan44@gmail.com","icon":"envelope-o"}],"reserved":"© {{ copyrightYear }} paalamugan. All rights reserved."}}}}}},"pageContext":{}},
+    "staticQueryHashes": []}
