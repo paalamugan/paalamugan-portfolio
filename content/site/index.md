@@ -4,8 +4,8 @@ layout: index
 ignoreMarkdown: true
 
 meta:
-    title: Paalamugan Portfolio
-    description: Senior full stack developer and very much passionate and interesting about any coding language.
+  title: Paalamugan
+  description: A senior full stack developer and very much passionate and interesting about any coding language.
 
 common: common
 
@@ -42,9 +42,6 @@ body:
       - Javascript
       - Sass
       - Scss
-      - Java
-      - C
-      - C++
   section_two:
     title: Latest Projects
     projects:
