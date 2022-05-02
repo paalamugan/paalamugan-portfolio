@@ -1,5 +1,5 @@
 const url = require(`url`)
-const siteUrl = process.env.SITE_URL || 'https://paalamugan.tk'
+const siteUrl = process.env.SITE_URL || 'https://paalamugan.com'
 
 const convertToAbsoluteUrl = path => url.resolve(siteUrl, path)
 

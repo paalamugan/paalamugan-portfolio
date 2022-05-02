@@ -12,7 +12,7 @@ export const getAuthorProperties = (primaryAuthor, fetchAuthorData) => {
         )
     } else {
         authorProfiles.push(
-            `https://paalamugan.tk/`,
+            `https://paalamugan.com/`,
             `https://twitter.com/paalamugan/`,
             `https://www.facebook.com/paalamugan/`
         )

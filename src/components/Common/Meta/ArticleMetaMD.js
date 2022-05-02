@@ -50,7 +50,7 @@ const ArticleMetaMD = ({ data, canonical }) => {
                             "@type": "Person",
                             "name": "Paalamugan",
                             "sameAs": [
-                                "https://paalamugan.tk/",
+                                "https://paalamugan.com/",
                                 "https://www.facebook.com/paalamugan/",
                                 "https://twitter.com/trypaalamugan/"
                             ]

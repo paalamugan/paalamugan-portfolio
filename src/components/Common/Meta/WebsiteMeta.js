@@ -48,7 +48,7 @@ const WebsiteMeta = ({ data, canonical, title, description, image, type }) => (
 //         "name": "Paalamugan",
 //             "logo": {
 //         "@type": "ImageObject",
-//             "url": "https://paalamugan.tk/favicon.ico",
+//             "url": "https://paalamugan.com/favicon.ico",
 //                 "width": 60,
 //                     "height": 60
 //     }
