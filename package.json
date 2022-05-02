@@ -20,8 +20,8 @@
         "main": "git pull -r origin main --autostash && npm install",
         "format": "prettier --write \"**/*.js\"",
         "deploy": "npm run build && npm run site",
-        "site": "gh-pages -d public -b 'deployment'",
-        "deploy-demo": "git push origin :deployment && git subtree push --prefix public origin deployment"
+        "site": "gh-pages -d public -b gh-pages",
+        "deploy-demo": "git push origin :gh-pages && git subtree push --prefix public origin gh-pages"
     },
     "dependencies": {
         "algolia-html-extractor": "0.0.1",
