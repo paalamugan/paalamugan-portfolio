@@ -19,8 +19,7 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then npm version && git push --follow-tags; fi",
         "main": "git pull -r origin main --autostash && npm install",
         "format": "prettier --write \"**/*.js\"",
-        "deploy": "npm run build && npm run site",
-        "site": "gh-pages -d public -b gh-pages",
+        "deploy": "gh-pages -d public -b gh-pages",
         "deploy-demo": "git push origin :gh-pages && git subtree push --prefix public origin gh-pages"
     },
     "dependencies": {
