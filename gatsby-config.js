@@ -184,10 +184,10 @@ if (SERVICE_WORKER_KILL_SWITCH) {
 
 module.exports = {
     siteMetadata: {
-        title: `Paalamugan Portfolio`,
-        author: `Paalamugan`,
-        siteUrl: process.env.SITE_URL || `https://paalamugan.tk`,
-        description: `Paalamugan Portfolio`,
+        title: `Paalamugan`,
+        author: `paalamugan`,
+        siteUrl: process.env.SITE_URL || `https://paalamugan.com`,
+        description: `I am paalamugan, a senior full stack developer and very much passionate and interesting about any coding language.`,
     },
     // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
     plugins: plugins,
