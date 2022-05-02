@@ -19,7 +19,8 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then npm version && git push --follow-tags; fi",
         "main": "git pull -r origin main --autostash && npm install",
         "format": "prettier --write \"**/*.js\"",
-        "deploy": "npm run build && gh-pages -d public -b 'deployment'",
+        "deploy": "npm run build && npm run site",
+        "site": "gh-pages -d public -b 'deployment'",
         "deploy-demo": "git push origin :deployment && git subtree push --prefix public origin deployment"
     },
     "dependencies": {
@@ -81,6 +82,7 @@
         "eslint": "^7.22.0",
         "eslint-plugin-react": "^7.22.0",
         "gatsby-cli": "^3.1.0",
+        "gh-pages": "^3.2.3",
         "mocha": "^8.3.2",
         "postcss-color-mod-function": "^3.0.3",
         "postcss-css-variables": "^0.17.0",
@@ -93,7 +95,7 @@
         "start-server-and-test": "^1.12.1"
     },
     "engines": {
-        "node": "14.15.3",
+        "node": "^14.15.3",
         "npm": "6.14.9"
     },
     "repository": {
