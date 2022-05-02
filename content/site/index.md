@@ -5,7 +5,7 @@ ignoreMarkdown: true
 
 meta:
   title: Paalamugan
-  description: A senior full stack developer and very much passionate and interesting about any coding language.
+  description: A senior full stack developer and very much passionate and interesting about coding language.
 
 common: common
 
