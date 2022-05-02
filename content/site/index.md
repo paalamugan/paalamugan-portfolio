@@ -18,8 +18,7 @@ body:
       - Express
       - Python
       - Angularjs
-      - Angular 6
-      - Angular 12
+      - Angular
       - Vue
       - React
       - Svelte
@@ -40,7 +39,6 @@ body:
       - HTML
       - CSS
       - Javascript
-      - Sass
       - Scss
   section_two:
     title: Latest Projects
