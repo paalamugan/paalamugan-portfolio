@@ -5,7 +5,7 @@ ignoreMarkdown: true
 
 meta:
   title: Paalamugan
-  description: A senior full stack developer and very much passionate and interesting about coding language.
+  description: A senior full stack developer and I always to love learning new things and share my knowledge with others. I'm very much passionate and interesting about coding language.
 
 common: common
 
@@ -55,7 +55,7 @@ body:
         caption: Angular12 Boilerplate Template
         description: Angular12 Boilerplate Template using with angular material, flexlayout, tailwind.
 
-      - url: https://cms-blog-post.herokuapp.com
+      - url: https://cms-blog.paalamugan.com
         gitUrl: https://github.com/paalamugan/cms-blog
         image: screenshots/cms-blog.png
         caption: CMS Blog
@@ -67,7 +67,7 @@ body:
         caption: Optic Visions
         description: This product useful for customer who wishes to have all the details for the optical related business.
 
-      - url: https://employee-payslip-generator.herokuapp.com
+      - url: https://employee-payslip-generator.paalamugan.com
         gitUrl: https://github.com/paalamugan/employee-payslip-generator
         image: screenshots/employee-payslip-generator.png
         caption: Employee Payslip Generator
@@ -116,7 +116,7 @@ body:
     description: ''
     address: '120 N-BLock, 25th street, Bharathiyar Nagar, Adayar, Chennai: 600005'
     phone: '+91 XXXXXXXXXX'
-    email: paalamugan26@gmail.com
+    email: contact@paalamugan.com
     button:
       name: Send Message
 ---

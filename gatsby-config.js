@@ -83,8 +83,8 @@ const plugins = [
     {
         resolve: `gatsby-plugin-manifest`,
         options: {
-            name: `PaalaMugan Site`,
-            short_name: `PaalaMugan`,
+            name: `Paalamugan Old Portfolio`,
+            short_name: `Paalamugan`,
             start_url: `/`,
             background_color: `#663399`,
             theme_color: `#663399`,
@@ -186,8 +186,8 @@ module.exports = {
     siteMetadata: {
         title: `Paalamugan`,
         author: `paalamugan`,
-        siteUrl: process.env.SITE_URL || `https://paalamugan.com`,
-        description: `I am paalamugan, a senior full stack developer and very much passionate and interesting about any coding language.`,
+        siteUrl: process.env.SITE_URL || `https://old.paalamugan.com`,
+        description: `I am paalamugan, a senior full stack developer and I always to love learning new things and share my knowledge with others. I'm very much passionate and interesting about coding language.`,
     },
     // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
     plugins: plugins,
