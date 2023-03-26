@@ -18,7 +18,7 @@ const Footer = ({ contacts, reserved }) => (
         )): null}
       </ul>
       <ul className="copyright">
-        <li>{setDynamicValueInText(reserved, { copyrightYear: new Date().getFullYear()} )}</li>
+        <li>{setDynamicValueInText(reserved, { copyrightYear: 2021 } )}</li>
       </ul>
     </div>
   </div>
